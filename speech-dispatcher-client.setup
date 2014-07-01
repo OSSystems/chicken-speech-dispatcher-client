@@ -1,0 +1,8 @@
+;; -*- scheme -*-
+(compile -d1 -O3 -J -s speech-dispatcher-client.scm)
+(compile -d1 -O3 -s speech-dispatcher-client.import.scm)
+
+(install-extension
+ 'speech-dispatcher-client
+ '("speech-dispatcher-client.so" "speech-dispatcher-client.import.so")
+ '((version "0.0.1")))

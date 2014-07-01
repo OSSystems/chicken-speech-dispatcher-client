@@ -1,0 +1,7 @@
+;; -*- scheme -*-
+((synopsis "Implementation of Speech Dispatcher's SSIP protocol")
+ (author "O.S. Systems")
+ (maintainer "Mario Domenech Goulart")
+ (category sound)
+ (license "BSD")
+ (depends unix-sockets))

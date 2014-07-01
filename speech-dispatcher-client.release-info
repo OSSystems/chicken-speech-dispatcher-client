@@ -1,0 +1,4 @@
+;; -*- scheme -*-
+(repo git "git://github.com/OSSystems/chicken-{egg-name}.git")
+(uri targz "https://github.com/OSSystems/chicken-{egg-name}/tarball/{egg-release}")
+(release "0.0.1")
